@@ -1,0 +1,12 @@
+.row {
+    height: 200px;
+}
+#toprow {
+    background-color: aquamarine;
+}
+#centerrow {
+    background-color: rgb(55, 201, 19);
+}
+#bottomrow {
+    background-color: rgb(226, 136, 51);
+}
