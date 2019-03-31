@@ -2,10 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Lottery Generator</title>
-  
-  <!-- Added link to the jQuery Library -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <title>Unit 4 Game</title>  
 
   <!-- Added a link to Bootstrap-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
@@ -13,28 +10,29 @@
 <body>
 <div class="container">
 <div class="row" id="toprow">
-    <div class="col-md">
+    <div class="col-md-3 ">
+      <h2>Jewel Value is </h2><h2 id="displayVal"></h2>
 
     </div>
-    <div class="col-md" id="jewel1">
-
+    <div class="col-md-3" id="jewel0">
+      <img src="images/jewel0.jpg">
     </div>
-    <div class="col-md" id="jewel2">
-
+    <div class="col-md-3" id="jewel1">
+      <img src="images/jewel1.png">
     </div>    
-    <div class="col-md">
-
+    <div class="col-md-3 ">
+        <h2>Current total is </h2><h2 id="totalVal"></h2>
     </div>    
 </div>
 <div class="row" id="centerrow">
-    <div class="col-md-3" id="jewel3">
-
+    <div class="col-md-3" id="jewel2">
+      <img src="images/jewel2.jpg">
     </div>
-    <div class="col-md-6" id="number">
-
+    <div class="col-md-6" id="textbox">
+      <p id="number"> </p>
     </div>    
     <div class="col-md-3" id="jewel3">
-
+        <img src="images/jewel3.jpg">
     </div>    
 
 </div>
@@ -42,20 +40,17 @@
     <div class="col-md">
 
     </div>
-    <div class="col-md">
-
+    <div class="col-md-10">
+      <h2 id="instructions">
+        <p>Click on the Jewels to find there value. Keep selecting jewels until you total matches the target number.  Don't go over or you lose.</p> </h2>
     </div>
     <div class="col-md">
 
     </div> 
 </div>  
 </div> <!--end of container-->
-
-  <script type="text/javascript">
-    
-    
-
-  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script type="text/javascript" src="javascript/game.js"></script>
   
 </body>
 </html>
