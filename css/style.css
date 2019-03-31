@@ -1,12 +1,23 @@
+body {
+    background-color: aliceblue;
+}
 .row {
     height: 200px;
 }
-#toprow {
-    background-color: aquamarine;
+#jewel0 {
+    
 }
-#centerrow {
-    background-color: rgb(55, 201, 19);
+#jewel1 {
+    
 }
-#bottomrow {
-    background-color: rgb(226, 136, 51);
+#jewel2 {
+    
+}
+#jewel3 {
+    
+}
+#textbox {
+    text-align: center;
+    font-size: 35px;
+    background-color: aliceblue;
 }
